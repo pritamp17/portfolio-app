@@ -1,1 +1,1 @@
-Live Site - https://github.com/pritamp17/portfolio-app
+Live Site - https://pritampawar-92lzy76st-pritamp17.vercel.app/
