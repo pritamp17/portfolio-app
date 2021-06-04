@@ -38,10 +38,15 @@ const AboutMe = () => {
               <p className={`subtitle`}>
 
               <div className="about-page-3">
-                <a href="https://leetcode.com/pritampawar625/">LeetCode</a>
-                    <a href="https://www.codechef.com/users/pritam_17">CodeChef</a>
+               {/* <a href="https://leetcode.com/pritampawar625/">LeetCode</a>
+                     <a href="https://www.codechef.com/users/pritam_17">CodeChef</a>
                     <a href="https://www.hackerrank.com/THE_STEALTH"> HackerRank</a>
-                  <a href="https://codeforces.com/profile/pritamp_17">CodeForces</a>
+                   <a href="https://codeforces.com/profile/pritamp_17">CodeForces</a> */}
+
+                   <a href="https://www.codechef.com/users/pritam_17" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="pritam_17" height="30" width="40" /></a>
+                  <a href="https://www.hackerrank.com/THE_STEALTH" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="THE_STEALTH" height="30" width="40" /></a>
+                  <a href="https://codeforces.com/profile/pritamp_17" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg" alt="pritamp_17" height="30" width="40" /></a>
+                  <a href="https://leetcode.com/pritampawar625/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="pritampawar625/" height="30" width="40" /></a>
               </div>
               </p>
               
