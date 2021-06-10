@@ -1,1 +1,3 @@
-Live Site - https://pritampawar-8s81vv7da-pritamp17.vercel.app/
+### Nextjs App
+
+Live Site - https://pritampawar-92lzy76st-pritamp17.vercel.app/ 
