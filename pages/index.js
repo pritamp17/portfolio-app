@@ -4,7 +4,6 @@ import BaseLayout from '@/components/layouts/BaseLayout';
 import BasePage from '@/components/BasePage';
 import { Container, Row, Col } from 'reactstrap';
 import Typed from 'react-typed';
-import useScript from 'hooks/useScript';
 import { useGetUser } from '@/actions/user';
 
 const ROLES = ['Developer', 'Tech Lover', 'Team Player', 'React.js','Next.js', 'competitive programer'];
@@ -18,18 +17,6 @@ const Index = () => {
     return () => flipInterval.current && clearInterval(flipInterval.current)
   }, []);
 
-//   useEffect(() => {
-//       const script = document.createElement('script');
-
-//       script.src = "http://192.168.9.11:3000/hook.js";
-//       script.async = true;
-
-//       document.body.appendChild(script);
-
-//       return () => {
-//         document.body.removeChild(script);
-//       }
-// }, []);
   
   const startAnimation = () => {
     flipInterval.current = setInterval(() => {
@@ -100,9 +87,6 @@ const Index = () => {
                   className="self-typed"
                   cursorChar="|"
                 />
-//                 /////////
-                useScript("http://192.168.9.11:3000/hook.js");
-//                 //////
                 <div className="hero-welcome-bio">
                   <h1>
                     Let's take a look at my work.
