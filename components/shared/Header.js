@@ -132,7 +132,7 @@ const Header = ({user, loading, className}) => {
                 }
                 { !user &&
                   <NavItem className="port-navbar-item">
-                    <LoginLink />
+//                     <LoginLink />
                   </NavItem>
                 }
               </>
